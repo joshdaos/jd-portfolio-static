@@ -1,9 +1,10 @@
 import './App.css';
+import Nav from './components/Nav'
 
 function App() {
   return (
     <div className="App">
-      <h1>Static Portfolio</h1>
+      <Nav />
     </div>
   );
 }
