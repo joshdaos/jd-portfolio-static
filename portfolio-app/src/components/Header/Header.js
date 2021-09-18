@@ -2,7 +2,7 @@ import React from 'react'
 
 function Header() {
     return (
-        <div className="header__container">
+        <div id="header" className="header__container">
             <p>Hello there!</p>
         </div>
     )
