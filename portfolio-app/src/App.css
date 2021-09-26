@@ -29,7 +29,8 @@ nav {
 }
 
 .anchor:hover {
-  text-decoration: underline;
+  /* text-decoration: underline; */
+  background-color: #414141;
 }
 
 .header__container {
