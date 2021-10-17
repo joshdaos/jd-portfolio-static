@@ -1,4 +1,5 @@
 import React from 'react'
+import Timeline from './CustomizedTimeline'
 
 function About() {
     return (
@@ -12,6 +13,7 @@ function About() {
                 I became intrigued from how he was able to create and develop something. <br></br>
                 My hunger to know more about this space was birthed.
             </p>
+            <Timeline />
         </div>
     )
 }
