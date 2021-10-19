@@ -3,12 +3,10 @@ import React from 'react'
 function Projects() {
     return (
         <div id="project" className="projects__container">
-            Projects
-            Projects
-            Projects
-            Projects
-            Projects
-            Projects
+            <div className='project'>Projects</div>
+            <div className='project'>Projects</div>
+            <div className='project'>Projects</div>
+            <div className='project'>Projects</div>
         </div>
     )
 }
