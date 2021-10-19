@@ -1,7 +1,7 @@
 body {
-  text-align: center;
-  height: 100vh;
+  /* text-align: center; */
   background-color: #353535;
+  margin: 0;
 }
 
 nav {
@@ -12,7 +12,6 @@ nav {
   list-style-type: none;
   text-align: center;
   background-color: #353535;
-  border-bottom: 2px solid #403f3f;
   /* margin-top: 0; */
   /* box-sizing: border-box; */
 }
@@ -37,44 +36,36 @@ nav {
   background-color: #403f3f;
   color: #d9c76d;
   font-size: 20px;
-  padding: 10%;
-  margin: 3%;
-  margin-left: auto;
-  margin-right: auto;
-  width: 80%;
+  /* background-repeat: no-repeat;
+	background-size: cover; */
+  padding: 10rem;
 }
 
 .about__container {
-  background-color: #403f3f;
+  background-color: #434343;
   color: #d9c76d;
   font-size: 20px;
-  padding: 10%;
-  margin: 3%;
-  margin-left: auto;
-  margin-right: auto;
-  width: 80%;
+  padding: 10rem;
 }
 
+
 .projects__container {
-  background-color: #403f3f;
+  background-color: #494949;
   color: #d9c76d;
   font-size: 20px;
-  padding: 10%;
-  margin: 3%;
-  margin-left: auto;
-  margin-right: auto;
-  width: 15em;
+  padding: 10rem;
+  width: 85vw;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 20px;
 }
 
 .contact__container {
-  background-color: #403f3f;
+  background-color: #616060;
   color: #d9c76d;
   font-size: 20px;
-  padding: 10%;
-  margin: 3%;
-  margin-left: auto;
-  margin-right: auto;
-  width: 15em;
+  padding: 10rem;
 }
 
 .project-link {

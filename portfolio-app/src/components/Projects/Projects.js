@@ -4,6 +4,11 @@ function Projects() {
     return (
         <div id="project" className="projects__container">
             Projects
+            Projects
+            Projects
+            Projects
+            Projects
+            Projects
         </div>
     )
 }
